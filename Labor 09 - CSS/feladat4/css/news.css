@@ -1,0 +1,44 @@
+.authorize-profile-picture {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 1rem;
+}
+
+header h1 {
+    margin: 0 0 0.75mm 0;
+}
+
+header .name {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+.new-item {
+    padding: 1rem;
+}
+
+.image {
+    justify-content: center;
+    display: flex;
+}
+
+.image img {
+    max-width: 250px;
+}
+
+header h3 {
+    font-size: 1rem;
+    margin: 0 0 0.5mm 0;
+}
+
+.proposed-item {
+    border-bottom: 1px solid;
+    margin-bottom: 1rem;
+}
+
+.proposed-item:last-child {
+    border-bottom: none;
+}
+
+/* 4.4 - IMSc */

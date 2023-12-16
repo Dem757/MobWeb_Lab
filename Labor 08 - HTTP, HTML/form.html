@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Űrlap kezelés</title>
+</head>
+
+<body>
+	<h1>Form</h1>
+	<form action="postform.html" method="post">
+		<pre>
+		<label for="name"> Név</label>
+		<input type="text" id="name" name="Nev" required>
+
+		<label for="password">Jelszó</label>
+		<input type="password" id="password" name="Jelszo" required>
+
+		<label for="description">Leírás</label>
+		<textarea id="description" name="Leiras"></textarea>
+
+		<label for="date">Születési dátum</label>
+		<input type="date" name="SzuletesiDatum">
+
+		<label for="gender">Nem</label>
+		<select name="Nem" id="gender">
+			<option value="Fiú">Fiú</option>
+			<option value="Lány">Lány</option>
+			<option value="Egyéb">Egyéb</option>
+		</select>
+
+		<label for="footsize">Lábméret</label>
+		<input type="number" id="footsize" step="0.5" name="Labmeret"> 
+
+		<button type="submit">Küldés</button>
+
+		</pre>
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+/* 1. Feladat - title */
+.card-title {
+    color: #666;
+}
+
+.card-hover {
+    color: #9c3;
+}
+
+a { 
+    color: #9c3;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #769e26; 
+}
+
+
+/* 1. Feladat iMsc */
+
+
+
+/* Címsorok */
+h1, h2 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 34px;
+    color: #404040;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 { 
+    font-size: 18px;
+}
+
+/* 2. feladat: Kártya lábléc formázása */
+.card-footer {
+    border-top: dashed 2px;
+    font-size: 0,75rem;
+    background-color: transparent;
+}
+
+.card-footer a {
+    color: #666;
+}
+
+.card-footer a:hover {
+    color: #9c3;
+}
+
+.card-footer i {
+    color: #9c3;
+}
+
+/* 4. feladat - Footer egyedi CSS */
+footer p {
+    color: white;
+}
+
+footer i {
+    width: 1,25rem;
+}
+
+/* 5. feladat iMSc regisztráció középre igazítás */

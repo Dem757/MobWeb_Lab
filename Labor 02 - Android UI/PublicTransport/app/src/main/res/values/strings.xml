@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PublicTransport</string>
+    <string name="bike">Bike</string>
+    <string name="bus">Bus</string>
+    <string name="train">Train</string>
+    <string name="boat">Boat</string>
+</resources>
